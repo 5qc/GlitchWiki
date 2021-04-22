@@ -1,0 +1,175 @@
+body {
+  background-color: #F6F6F6;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #1247AA;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #0E097D;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #A2A9B1;
+}
+
+.main {
+  margin-left: 172px;
+  padding: 0px 25px;
+  font-family: "Arial", sans-serif;
+  border: 1px solid #A9D7F7;
+  background-color: #fff;
+  position: relative;
+}
+.main-navbar {
+  font-family: "Arial", sans-serif;
+  margin-left: 172px;
+  font-size: 13px;
+  background-color: #fff;
+  border-left: 1px solid #A9D7F7;
+  border-right: 1px solid #A9D7F7;
+  border-top: 1px solid #A9D7F7;
+  width: 50px;
+  height: 30px;
+  top: 1px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+}
+.main-readsource {
+  font-family: "Arial", sans-serif;
+  margin-left: 223px;
+  font-size: 13px;
+  background-color: #fff;
+  border-right: 1px solid #A9D7F7;
+  border-top: 1px solid #A9D7F7;
+  width: 90px;
+  height: 30px;
+  top: 1px;
+  line-height: 30px;
+  right: 227px;
+  display: inline-block;
+  position: relative;
+}
+.main-bottom {
+  margin-left: 200px;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+}
+
+.main-navbar a:visited {
+  color: #1247AA;
+}
+
+.gw-headline {
+  font-family: "Times New Roman", serif;
+  font-size: 30px;
+  position: relative;
+  top: 7px;
+}
+.gw-article {
+  font-size: 15px;
+}
+
+.gw-category-box {
+  background-color: #F8F9FA;
+  border: 1px solid #A2A9B1;
+  height: 25px;
+}
+.gw-cb-text {
+  position: relative;
+  left: 5px;
+  top: 4px;
+  font-size: 15px;
+}
+
+.gw-from {
+  font-size: 13px;
+}
+
+#vr {
+  border-left: 1px solid #A2A9B1;
+  height: 500px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 50px;
+}
+
+.gw-sidenav-support {
+  position: relative;
+  bottom: 7px;
+}
+
+/** SIDE NAVIGATION **/
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F6F6F6;
+  overflow-x: hidden;
+  font-family: "Arial", sans-serif;
+}
+
+.sidenav .gw-sb-link {
+  padding: 6px 8px 0px 25px;
+}
+.sidenav a.gw-sb-link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #1247AA;
+  display: block;
+}
+.sidenav a.gw-sb-link:hover {
+  text-decoration: underline;
+}
+.sidenav a.gw-sb-link:visited {
+  color: #0E097D;
+}
+.sidenav .gw-sb-links {
+  padding-top: 5px;
+}
+
+.sidenav img {
+  padding: 0px 0px 0px 15px;
+}
+
+.gw-sidenav {
+  padding: 0px 0px 0px 25px;
+  font-size: 12px;
+  position: relative;
+  top: 7px;
+}
+
+.gw-sidenav-hr {
+  width: 130px;
+}
+
+/** CURSOR **/
+.default {
+  cursor: default;
+}
+
+.pointer {
+  cursor: pointer;
+}
