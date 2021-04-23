@@ -42,5 +42,12 @@ fetch("/bottom.html")
   .then(data => {
     document.querySelector("bottom").innerHTML = data;
 });
+fetch("/gw-infobox.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("gwinfobox").innerHTML = data;
+});
 
 document.getElementById("lastedited").innerHTML = document.lastModified;
