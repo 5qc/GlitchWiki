@@ -113,11 +113,6 @@ textarea {
   height: 50px;
 }
 
-.gw-sidenav-support {
-  position: relative;
-  bottom: 7px;
-}
-
 /** SIDE NAVIGATION **/
 .sidenav {
   height: 100%;
@@ -163,6 +158,16 @@ textarea {
 
 .gw-sidenav-hr {
   width: 130px;
+}
+
+.gw-sidenav-support {
+  position: relative;
+  bottom: 7px;
+  color: #54595D;
+}
+
+.gw-sidenav-h1 {
+  color: #54595D;
 }
 
 /** CURSOR **/
