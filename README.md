@@ -1,7 +1,7 @@
-#NOTE
+# NOTE
 This project is almost a year old and I plan on recreating this sometime soon (cause it's getting a lot of traction for like no reason). I've improved greatly in coding and I would really like to continue this project. Just give me some time.
 
-#GlitchWiki
+# GlitchWiki
 Welcome to **GlitchWiki**, a recreation of [MediaWiki](https://www.mediawiki.org) using absolutely no PHP! Obviously, this isn't exactly like MediaWiki, but it is very similar
 in many ways. You can go to the documentation [here](https://glitchwiki-html.glitch.me).
 
